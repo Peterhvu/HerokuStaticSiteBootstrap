@@ -1,0 +1,6 @@
+{
+    "root": "public_html/",
+    "encoding": "UTF-8",
+    "clean_urls": true,
+    "https_only": true
+}
