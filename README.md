@@ -1,5 +1,5 @@
 # Static Site
-This is a boostrap project to enable static site hosting on Heroku using the following build pack https://github.com/heroku/heroku-buildpack-static
+This is a bootstrap project to enable static site hosting on Heroku using the following build pack https://github.com/heroku/heroku-buildpack-static
 
 ## What you need
 1. A Heroku account free or pay.
