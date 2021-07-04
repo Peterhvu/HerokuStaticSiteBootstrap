@@ -1,8 +1,10 @@
 # Static Site
-This site is build using https://github.com/heroku/heroku-buildpack-static
+This is a boostrap project to enable static site hosting on Heroku using the following build pack https://github.com/heroku/heroku-buildpack-static
 
-On [Heroku App's setting tab](https://dashboard.heroku.com/apps/b042cd95-c1ac-41b8-bf3d-d63f01/settings) click "Add buildpack" then enter the github url above to add it.
-
-Visit github buildpack project to learn more on how it work.
-
-It quite simple. I added 2 requirements to this app; "static.json" and "public_html/" dir as root for content. This is sufficient to allow the buildpack to build and deploy.
+## What you need
+1. A Heroku account free or pay.
+2. Create new app in Heroku.
+3. On [Heroku App's setting tab] ex: https://dashboard.heroku.com/apps/{YourAppName}/settings click "Add buildpack" then enter "https://github.com/heroku/heroku-buildpack-static" to add it.
+4. Visit the above [github buildpack project](https://github.com/heroku/heroku-buildpack-static) to learn more on how it work. But it quite simple. I only added 2 requirements to this app; "static.json" and "public_html/" dir as root for my content. That is sufficient to allow the buildpack to build and deploy.
+5. Add heroku git remote using this command "git remote add heroku https://git.heroku.com/{YourAppName}.git"
+6. Everytime you run "git push heroku master" Heroku will automatically build and deploy this repo.
